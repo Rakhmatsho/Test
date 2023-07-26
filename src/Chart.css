@@ -1,0 +1,40 @@
+/* Chart.css */
+
+.chart-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-cell {
+    width: 20px;
+    height: 20px;
+    margin: 1px;
+}
+
+/* Стили для цветов контрибуций */
+.grid-cell.white {
+    background-color: white;
+}
+
+.grid-cell.one-to-nine {
+    background-color: lightgray;
+}
+
+.grid-cell.ten-to-nineteen {
+    background-color: blue;
+}
+
+.grid-cell.twenty-to-twenty-nine {
+    background-color: purple;
+}
+
+.grid-cell.thirty-plus {
+    background-color: green;
+}
